@@ -11,8 +11,6 @@
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
 
-[![CircleCI][circle-ci-badge]][circle-ci]
-[![Code Coverage][coverage-badge]][coverage]
 [![PRs Welcome][prs-badge]][prs]
 
 ## Installation
