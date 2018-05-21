@@ -5,7 +5,7 @@
 	<br>
 </h1>
 <p align="center" style="font-size: 1.2em;">
-	The source code for the [v-cache](https://www.coffee-driven-dev.com) [Vue Directive](https://vuejs.org/v2/guide/custom-directive.html).
+	The source code for the <a href="https://www.coffee-driven-dev.com">v-cache</a> <a href="https://vuejs.org/v2/guide/custom-directive.html">Vue Directive</a>.
 </p>
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
@@ -57,3 +57,14 @@ export default {
 }
 </script>
 ```
+
+## LICENSE
+
+MIT
+
+[github-watch-badge]: https://img.shields.io/github/watchers/coffee-driven-dev/v-cache.svg?style=social
+[github-watch]: https://github.com/coffee-driven-dev/v-cache/watchers
+[github-star-badge]: https://img.shields.io/github/stars/coffee-driven-dev/v-cache.svg?style=social
+[github-star]: https://github.com/coffee-driven-dev/v-cache/stargazers
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com
