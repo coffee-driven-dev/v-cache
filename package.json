@@ -1,0 +1,28 @@
+{
+  "name": "v-cache",
+  "version": "0.0.1",
+  "description": "VueJS directive that adds offline caching support for custom components and native form elements.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src",
+    "build": "rimraf lib && babel src -d lib --ignore src/__tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coffee-driven-dev/v-cache"
+  },
+  "keywords": [],
+  "author": "Danny Brown",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^2.6.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.1.0"
+  },
+  "dependencies": {
+    "localforage": "1.7.x"
+  }
+}
