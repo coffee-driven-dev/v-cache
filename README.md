@@ -10,8 +10,14 @@
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
-
 [![PRs Welcome][prs-badge]][prs]
+
+
+[![npm](https://img.shields.io/npm/dt/v-cache.svg?style=for-the-badge)](https://www.npmjs.com/package/v-cache)
+[![npm](https://img.shields.io/npm/v/v-cache.svg?style=for-the-badge)](https://www.npmjs.com/package/v-cache)
+[![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/v-cache.svg?style=for-the-badge)](https://www.npmjs.com/package/v-cache)
+[![npm](https://img.shields.io/npm/l/v-cache.svg?style=for-the-badge)](https://www.npmjs.com/package/v-cache)
+
 
 ## Installation
 
