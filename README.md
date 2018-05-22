@@ -62,6 +62,10 @@ export default {
 </script>
 ```
 
+## Wish List
+
+- Support for not caching password fields
+
 ## LICENSE
 
 MIT
