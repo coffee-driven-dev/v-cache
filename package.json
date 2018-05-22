@@ -1,8 +1,8 @@
 {
   "name": "v-cache",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "VueJS directive that adds offline caching support for custom components and native form elements.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "start": "babel-node src",
 	"build": "rimraf dist && babel src -d dist --ignore src/__tests__",
@@ -18,9 +18,11 @@
 	  "vuejs2", 
 	  "cache", 
 	  "storage", 
-	  "localstorage", 
+	  "localstorage",
 	  "form", 
-	  "offline"
+	  "offline",
+	  "localforage",
+	  "directive"
 	],
   "author": "Danny Brown",
   "license": "MIT",
