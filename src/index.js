@@ -83,6 +83,10 @@ export default {
       localforage
         .getItem(cacheKey)
         .then(value => {
+          if (!value) {
+            return value;
+          }
+
           const isCustomSuccessHandler =
             eventData !== null && typeof eventData === "function";
           const isCustomRestoreTarget =
