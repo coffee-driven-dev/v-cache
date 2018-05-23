@@ -1,6 +1,6 @@
 {
   "name": "v-cache",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "VueJS directive that adds offline caching support for custom components and native form elements.",
   "main": "./dist/index.js",
   "scripts": {
