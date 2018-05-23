@@ -109,7 +109,8 @@ export default {
     vnode.componentInstance.$on("restore-cache", handleRestoreCache);
 
     // Clear Cache
-    const handleClearCache = () => localforage.removeItem(cacheKey);
+    const handleClearCache = () =>
+      setTimeout(() => localforage.removeItem(cacheKey), 200);
     vnode.componentInstance.$on("clear-cache", handleClearCache);
   },
   // This hook is called once the directive is removed.
