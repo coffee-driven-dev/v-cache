@@ -21,7 +21,7 @@
 			v-model="form.termsAccepted"
 		></v-checkbox>
 
-		<v-btn block color="info">Submit Message</v-btn>
+		<v-btn block color="info" @click="pretendSubmitForm">Submit Message</v-btn>
 	</v-form>
 </template>
 
