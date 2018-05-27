@@ -5,33 +5,33 @@
   "main": "./dist/index.js",
   "scripts": {
     "start": "babel-node src",
-	"build": "rimraf dist && babel src -d dist --ignore src/__tests__",
-	"prepublish": "npm run build"
+    "build": "rimraf dist && babel src -d dist --ignore src/__tests__",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/coffee-driven-dev/v-cache"
   },
   "keywords": [
-	  "vue", 
-	  "vuejs", 
-	  "vuejs2", 
-	  "cache", 
-	  "storage", 
-	  "localstorage",
-	  "form", 
-	  "offline",
-	  "localforage",
-	  "directive"
-	],
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "cache",
+    "storage",
+    "localstorage",
+    "form",
+    "offline",
+    "localforage",
+    "directive"
+  ],
   "author": "Danny Brown",
   "license": "MIT",
   "files": [
-	"dist/index.js"
+    "dist/index.js"
   ],
   "dependencies": {
     "localforage": "1.7.x"
-  }, 
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
