@@ -16,7 +16,7 @@ jobs:
       - TARGET_BRANCH: gh-pages
     steps:
       - checkout:
-		  path: ~/repo
+          path: ~/repo
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
