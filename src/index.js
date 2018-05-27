@@ -43,6 +43,8 @@ const restoreCallbackFn = function(value) {};
 export default {
   // This occurs once the directive is attached to the element.
   bind: function(el, binding, vnode) {
+	binding = binding || {}
+
     const cacheKey = binding.value.key || binding.value;
     const restoreTarget = binding.value.restoreTarget || "form";
     const successHandler = binding.value.successHandler || successHandlerFn;
