@@ -1,7 +1,0 @@
-## All Non-Dist Directories
-src/
-examples/
-
-## Root Files
-.gitignore
-.npmignore
