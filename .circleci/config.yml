@@ -29,9 +29,6 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run:
-          name: Run tests
-          command: yarn test
       - deploy:
           name: Deploy
           # Clone a copy of what we want to deploy to gh-pages to out/
