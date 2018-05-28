@@ -23,8 +23,35 @@
 
 **What is v-cache?**
 
+v-cache is a VueJS directive that can be used on any custom VueJS Component. It gives the custom component the ability to cache data, restore data from cache, and clear its cache data by emitting one of three simple VueJS events:
+
+- `$emit('cache')`
+- `$emit('cache-restore')`
+- `$emit('cache-clear')`
+
 
 **When and why should I use v-cache?**
+
+Have you ever been filling out a long form and accidentally navigated away? Or had your browser crash? Or your computer start updates? Normally, all of that work would be lost. With v-cache, revisiting the page will cause in-progress data to be restored to your custom component. Because the data is stored locally, this works even if your computer loses access to the internet.
+
+_Advantages:_
+
+- No database required
+- Incredibly fast
+- Works even when internet goes out
+    - Or for offline web apps!
+- Survives page refreshes, new tabs, and even PC restarts
+
+_Cons:_
+
+- Does not persist across multiple devices
+- Employ caution when caching sensative information
+
+_Notes:_
+
+- If data is not cleared, it will persist to additional tabs and potentially across multiple user sessions
+- Data is tied to the MACHINE, not necessarily the logged in user
+- Scoped to the domain the data is cached on
 
 
 ## Installation
