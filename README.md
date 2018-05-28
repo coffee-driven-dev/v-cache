@@ -19,6 +19,14 @@
 [![npm](https://img.shields.io/npm/l/v-cache.svg?style=for-the-badge)](https://www.npmjs.com/package/v-cache)
 
 
+## About
+
+**What is v-cache?**
+
+
+**When and why should I use v-cache?**
+
+
 ## Installation
 
 ```js
@@ -61,6 +69,19 @@ export default {
 }
 </script>
 ```
+
+## Advanced Usage
+
+`v-cache` can accept more than just a string `cacheKey` as a parameter. Here is the full options object it can take:
+
+```
+```
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 ## Wish List
 
